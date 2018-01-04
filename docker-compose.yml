@@ -1,0 +1,8 @@
+api:
+  build: .
+  ports:
+    - "8080:8080"
+  environment:
+    - MAC=ffffffffffff
+    - HOST=192.168.xx.xxx
+    - ACCESS_HEADER=specified-http-request-header
